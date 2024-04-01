@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(205, 64, 64);
+}
+
+#board{
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+.btn{
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-size: larger;
+}
+
+.controls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
